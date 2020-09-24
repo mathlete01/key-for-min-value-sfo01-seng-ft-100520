@@ -8,8 +8,9 @@ def key_for_min_value(name_hash)
     #puts "#{key}: #{value}"
     if value < lowestValue 
       lowestValue = value
+      lowestKey = key
       puts "lowestValue = #{lowestValue}"
-      puts "lowestKey = #{key}"
+      puts "lowestKey = #{lowestKey}"
     end
   end
   lowestKey

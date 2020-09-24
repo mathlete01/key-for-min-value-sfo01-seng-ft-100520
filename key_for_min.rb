@@ -7,6 +7,7 @@ def key_for_min_value(name_hash)
     if value < box do
       box = value
       puts "box = #{box}"
+    end
   end
 end
 

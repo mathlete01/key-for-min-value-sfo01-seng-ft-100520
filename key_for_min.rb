@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
     if value < box 
       box = value
       puts "box = #{box}"
-      puts "key = #{key}"
+      #puts "key = #{key}"
     end
   end
 end

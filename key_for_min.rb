@@ -15,6 +15,6 @@ def key_for_min_value(name_hash)
   lowestKey
 end
 
-ikea = {:chair => 450, :table => 25, :mattress => 85}
+ikea = {:blake => 500, :ashley => 2, :adam => 1}
 
 key_for_min_value(ikea)

@@ -15,6 +15,6 @@ def key_for_min_value(name_hash)
   lowestKey
 end
 
-ikea = {:blake => 500, :adam => 1, :ashley => 2}
+#ikea = {:blake => 500, :adam => 1, :ashley => 2}
 
-key_for_min_value(ikea)
+#key_for_min_value(ikea)
